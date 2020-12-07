@@ -1,6 +1,6 @@
+source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/settings.vim
 source $HOME/.config/nvim/key-mappings.vim
-source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/plug-config/easymotion.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/coc-extensions.vim
