@@ -10,6 +10,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'easymotion/vim-easymotion'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
+    " Floaterm
+    Plug 'voldikss/vim-floaterm'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
@@ -24,7 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
     " Status Line
-    Plug 'glepnir/galaxyline.nvim'
+    Plug 'vim-airline/vim-airline'
     " Text Navigation
     Plug 'unblevable/quick-scope'
     " Git
@@ -34,7 +36,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Markdown
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-
+    " Elixir
+    Plug 'elixir-editors/vim-elixir'
 call plug#end()
 
 " Automatically install missing plugins on startup

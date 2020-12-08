@@ -14,7 +14,8 @@
     "javascript",
     "typescript",
     "html",
-    "json"
+    "json",
+    "elixir"
   ],
   "eslint.autoFixOnSave": true,
   "codeLens.enable": true,
