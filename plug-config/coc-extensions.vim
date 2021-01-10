@@ -18,5 +18,6 @@ let g:coc_global_extensions = [
   \ 'coc-marketplace',
   \ 'coc-eslint',
   \ 'coc-elixir',
+  \ 'coc-styled-components',
   \ ]
 

@@ -38,7 +38,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     " Elixir
     Plug 'elixir-editors/vim-elixir'
-call plug#end()
+    " HTTP Client
+    Plug 'nicwest/vim-http'
+    " StyledComponents
+    Plug 'styled-components/vim-styled-components'
+    " Closetag
+    Plug 'alvan/vim-closetag'
+    call plug#end()
 
 " Automatically install missing plugins on startup
 autocmd VimEnter *
