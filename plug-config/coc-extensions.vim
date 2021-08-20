@@ -19,5 +19,8 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-elixir',
   \ 'coc-styled-components',
+  \ 'coc-go',
+  \ 'coc-java',
+  \ 'coc-kotlin',
+  \ 'https://github.com/rodrigore/coc-tailwind-intellisense'
   \ ]
-

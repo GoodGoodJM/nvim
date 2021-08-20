@@ -1,5 +1,5 @@
 set nowrap                              " Display long lines as just one line
-set mouse=a                             " Enable your mouse
+" set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set tabstop=2                           " Insert 2 spaces for a tab

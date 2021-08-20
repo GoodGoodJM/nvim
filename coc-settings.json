@@ -15,7 +15,8 @@
     "typescript",
     "html",
     "json",
-    "elixir"
+    "elixir",
+    "go"
   ],
   "eslint.autoFixOnSave": true,
   "codeLens.enable": true,
@@ -35,5 +36,14 @@
       "open"
     ],
     "v": "open:vsplit"
-  }
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw='([^']*)", // <div tw='...' />
+    "tw={'([^'}]*)", // <div tw={'...'} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+  ]
 }
